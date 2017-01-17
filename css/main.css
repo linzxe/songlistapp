@@ -1,0 +1,41 @@
+body {
+	background-color: white;
+}
+
+/*target the divs*/
+
+#container {
+	width: 100%;
+	padding:0;
+}
+
+#wrapper {
+	width: 60%;
+	/*for inset look*/
+	height: 500px;
+	margin: 0 auto;
+	/*auto will automatically center wrapper inside div*/
+	background-color: #CF46AA;
+	text-align: center;
+	padding: 0;
+}
+/*could target #song-list li if you have multiple lists*/
+li {
+	list-style: none;
+
+	/*removes the number or bullet point of a list*/
+}
+
+/*pseudo class...allows me to select things like hover, click, nth child...
+every even one will be a different color*/
+
+li:nth-child(even) {
+	background-color: #46CF6B;
+
+}
+li:nth-child(odd) {
+	background-color: #4665CF;
+}
+
+/*turn this into a git repo and push to remote*/
+/*make this your own with styling*/
